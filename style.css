@@ -18,17 +18,27 @@ body {
     background-color: aqua;
 }
 
-nav {
-    background-color: red;
-    padding: 4rem;
-    height: 8vh;
-}
 
 a {
     text-decoration: none;
 }
 
 .navbar {
+    background-color: red;
+    height: 8.7vh;
     margin: 0 auto;
+}
+
+.navbar > a {
+    padding: 4rem;
+
+}
+
+.main {
+    margin: 2rem;
+}
+
+p {
+    margin: 1rem 0;
 }
 
