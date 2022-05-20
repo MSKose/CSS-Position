@@ -18,10 +18,19 @@ body {
     background-color: #8865A7;
 }
 
-
-a {
-    text-decoration: none;
+.header--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.header--content > a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .navbar {
     background-color: #FFAA53;
